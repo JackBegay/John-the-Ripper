@@ -33,5 +33,5 @@ I wanted to utilize John the Ripper to do some testing on password hashes in Kal
 ![Screenshot 2025-04-30 114525](https://github.com/user-attachments/assets/c5f088d7-fdb8-40be-9424-febe724963b7)
 ![Screenshot 2025-04-30 115410](https://github.com/user-attachments/assets/a7999afe-4fef-46af-9dcf-9d09d078e1b4)
 
-6.Lastly I made manually added a few users with some basic and some more difficult passwords. The basic passwords were only one word and used no numbers, while the advanced ones used multiple words were at least 10 characters long. All of my one word passwords were cracked in a few minutes using the rockyou.txt wordlist, while the advanced ones lasted almost 30 minutes without being cracked.
+6.Lastly I made manually added a few users with some basic and some more difficult passwords. The basic passwords were only one word, while the advanced ones used multiple words were at least 10 characters long. All of my one word passwords were cracked in a few minutes using the rockyou.txt wordlist, while the advanced ones lasted almost 30 minutes without being cracked.
 ![Screenshot 2025-04-30 140122](https://github.com/user-attachments/assets/7be68407-66bd-4f1d-8001-efa36f66333c)
