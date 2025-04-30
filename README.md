@@ -28,3 +28,7 @@ I wanted to utilize John the Ripper to do some testing on password hashes in Kal
 4.  I used zip2john command to get a hash out of zip file first. Then I put a few random passowrds with the real one into a list, passwords.txt, to use to see if I can get my own list to work. Then same command as earlier, but slightly different with  sudo john --wordlist=passwords.txt zip.hash  to run through the hash and match it with the correct one on my list. 
 ![Screenshot 2025-04-29 161253](https://github.com/user-attachments/assets/5575044b-4eab-4581-8276-43769ea38bd1)
 ![Screenshot 2025-04-29 161635](https://github.com/user-attachments/assets/6852d5d9-05d6-41ba-8680-e3edd9d6f59b)
+
+5. I wanted to now create some new new hashes with a mini script for 5 different car brands with passwords similar to the usernames. Also will be using single crack mode instead of a wordlist, which will utilize all user login names, full names, and home directory names to be much faster when cracking compared to wordlist. All user passwords were cracked in less than a couple minutes.
+![Screenshot 2025-04-30 114525](https://github.com/user-attachments/assets/c5f088d7-fdb8-40be-9424-febe724963b7)
+![Screenshot 2025-04-30 115410](https://github.com/user-attachments/assets/a7999afe-4fef-46af-9dcf-9d09d078e1b4)
