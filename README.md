@@ -15,7 +15,7 @@ I wanted to utilize John the Ripper to do some testing on password hashes in Kal
 
 ## Steps
 
-1. First I created one user named david with an easy password of password123 to test on first. I went to /etc/shadow as root and scrolled down the bottom to copy my password hash of david. This inforamtionw will be pasted into a file called hash.txt .  ![Screenshot 2025-04-29 155910](https://github.com/user-attachments/assets/3c7c6fbd-b0e2-4eeb-afe5-13bee22d383a)
+1. First I created one user named david with an easy password of password123 to test on first. I went to /etc/shadow as root and scrolled down the bottom to copy the password hash for david. This inforamtion will be pasted into a file called hash.txt .  ![Screenshot 2025-04-29 155910](https://github.com/user-attachments/assets/3c7c6fbd-b0e2-4eeb-afe5-13bee22d383a)
 ![Screenshot 2025-04-29 160010](https://github.com/user-attachments/assets/d52225f3-9eea-4131-8672-b1bb915594b0)
 
 2. Next we are going to use a pre-installed wordlist on Kali Linux called rockyou.txt in /usr/share/wordlists directory to test davids password hash. Going to run  sudo john -format=crypt --wordlist=/usr/share/wordlist/rockyou.txt hash.txt   which with run John the Ripper using crypt foramt, since my hash starts with $y$, and the rockyou.txt wordlist installed on Kali. The simple password was cracked in less than a second for david.
