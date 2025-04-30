@@ -1,4 +1,4 @@
-# John-the-Ripper
+# John the Ripper
 
 ## Objective
 I wanted to utilize John the Ripper to do some testing on password hashes in Kali Linux. For this I want to break a some hashes for user passwords using John and a pre-installed wordlist on Kali. I also want to be able to crack a locked zip file that is password protected.
