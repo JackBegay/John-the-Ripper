@@ -21,7 +21,7 @@ I wanted to utilize John the Ripper to do some testing on password hashes in Kal
 2. Next we are going to use a pre-installed wordlist on Kali Linux called rockyou.txt in /usr/share/wordlists directory to test davids password hash. Going to run   sudo john -format=crypt --wordlist=/usr/share/wordlist/rockyou.txt hash.txt    which will run John the Ripper using crypt foramt, since my hash starts with $y$, and using the rockyou.txt wordlist. The simple password was cracked in less than a second for david.
 ![Screenshot 2025-04-29 160550](https://github.com/user-attachments/assets/bfba4aab-ca75-45b1-b765-0e01240f1a13)
 
-3. After my test run I wanted to try on a password protected zip file to see if I could breach it using John. Made a secret.txt file and password protected the zip file made out of it into secret.zip.
+3. After my test run I wanted to try on a password protected zip file to see if I could breach it using John. Made a secret.txt file and password protected the zip file, secret.zip, from the txt.
 ![Screenshot 2025-04-29 160708](https://github.com/user-attachments/assets/e3cbf1f7-bd1e-423d-9a3d-8294cc3a78aa)
 ![Screenshot 2025-04-29 160949](https://github.com/user-attachments/assets/3cfac036-e53c-4df4-b4af-dfc1e8cae958)
 
